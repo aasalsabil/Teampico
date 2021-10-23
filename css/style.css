@@ -1,0 +1,616 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Bebas Neue', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part start here. */
+.background{
+    background-image: url(../picture/Mask\ Group\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 130vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #2F2F2F;
+    position: relative;
+    padding: 0;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2F2F2F;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #2F2F2F;
+}
+.navbar-light .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 50%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 50%;
+}
+.header_content{
+    margin-left: 193px;
+}
+.header_content h6{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 93px;
+    color: #2F2F2F;
+}
+.header_content h5{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    color: #EB3A4C;
+    margin: 0;
+}
+.header_content p{
+
+    margin: 0;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.btn-book{
+    margin: 0;
+    padding: 0;
+    padding: 8px 20px;
+    border: 1px solid #eb3a4c;
+    border-radius: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color:#eb3a4c;
+}   
+.btn-book:hover{
+    border: 1px solid #eb3a4c;
+    background-color:transparent;
+    color: #eb3a4c;
+    transition: .8s all ease-in-out;
+}
+.btn-view{
+    margin: 0;
+    padding: 0;
+    padding: 8px 30px;
+    border: 1px solid #eb3a4c;
+    background-color: transparent;  
+    color: #eb3a4c;
+    border-radius: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 10px;
+}
+.btn-view:hover{
+    background-color: #eb3a4c;
+    color: #FFF;
+    transition: .4s all ease-in-out;
+}
+/* header part end here. */
+/* what we do part start here. */
+.we-bg{
+    background-color: #FAFAFA;
+}
+.we span, .our span, .about span, .testimonials span, .plan span, .recent span, .contact span{
+    
+    height: 30px;
+    display: block;
+    width: 2px;
+    background-color: #eb3a4c;
+    justify-items: center;
+    display: inline-block;
+    margin: 25px auto;
+}
+.we h6, .our h6, .about h6, .testimonials h6, .plan h6, .recent h6 ,.contact h6{
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.carousel_box{
+    border-radius: 30px;
+    box-shadow: 1px -1px 11px 3px #e1e0e0;
+    margin: 15px;
+    transition: all .4s ease-in-out;
+}
+.carousel_box span{
+    display: inline-block;
+    height: 5px;
+    width: 20%;
+    background-color: red;
+    margin-bottom: 13px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+
+}
+.carousel_box .icon{
+    width: 30%;
+    margin: auto;
+        margin-bottom: auto;
+    margin-bottom: 25px;
+}
+.carousel_box h4{
+    font-size: 18px;
+    margin: 0;
+        margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+.carousel_box p{
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.owl-stage .center .carousel_box {
+    background-color: red;
+}
+.owl-stage .center .carousel_box span{
+    background-color: #fff;
+    width: 35%
+}
+.btn_more{
+    border: 1px solid #eb3a4c;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border-radius: 25px;
+    color: #eb3a4c;
+    margin-top: 25px;
+    background-color: transparent;
+}
+.btn_more:hover {
+    color: #fff;
+    background-color:#eb3a4c;
+    transition: .4s all ease-in-out;
+}
+/* what we do part end here. */
+/* Our projects part start here. */
+.projects_list{
+   
+}
+.filter{
+
+}
+.project_one{
+    position: relative;
+}
+.project_one::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    background-color: #eb3a4c;
+    opacity: .7;
+    transition: .6s all ease-in-out;
+    top: 0%;
+    right: 0%;
+}
+.project_one:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.project_one_content{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-45%, -45%);
+    color: #fff;
+    opacity: 0;
+    transition: .6s all ease-in-out;
+}
+.project_one:hover .project_one_content{
+    top: 45%;
+    left: 45%;
+    opacity: 1;
+}  
+.project_one_content h5{
+    text-transform: capitalize;
+    margin: 0;
+    font-weight: 700;
+}
+  
+.btncolor{
+    text-transform: capitalize;
+    border: none;
+    
+}
+/* .btn.btncolor:active{
+    color: #eb3a4c;
+    border-bottom: 2px solid #eb3a4c;
+    border-radius: 0px
+} */
+.btn:focus {    
+    outline: 0;
+    box-shadow: none
+}
+.btn.btncolor:hover{
+    color: #eb3a4c;
+    border-bottom: 2px solid #eb3a4c;
+    border-radius: 0px;
+    
+}
+/* Our projects part end here. */
+/* about part start here. */
+.about_content{
+    margin-top: 30px;
+}
+.about_content h4{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about_content p{
+    margin-bottom: 30px;
+}
+.btn_about{
+    border: 1px solid #eb3a4c;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border-radius: 25px;
+    color: #eb3a4c;
+    margin-top: 25px;
+    background-color: transparent;
+}
+
+.btn_about:hover {
+    color: #fff;
+    background-color:#eb3a4c;
+    transition: .4s all ease-in-out;
+}
+/* about part end here. */
+/* count part start here. */
+.count_background{
+    background-image: url(../picture/pexels-alex-azabache.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.count_background::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.count{
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #EB3A4C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.count_one span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.count_one h6{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #fff;
+}
+/* count part end here. */
+/* about us part start here. */
+.us_content h5{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/* about us part end here. */
+/* amazing part start here. */
+.amazing_content h5{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 15px;
+    animation: alternate;
+    animation-duration: 5ms;
+}
+.amazing_content span{
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: #EB3A4C;
+}
+.amazing_content p{
+    margin-top: 15px    ;
+}
+.email .form-control{
+    border: 2px solid #EB3A4C;
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    width: 90%;
+    box-shadow: none;
+}
+.submit .form-control{
+    border: 2px solid #EB3A4C;
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    box-shadow: none;
+}
+/* amazing part end here. */
+/* testimonial part start here. */
+.testimonial_content{
+    padding: 15px 15px;
+    background-color: #f7f7f7;
+}
+.testimonial_content p{
+    font-style: italic;
+}
+.box{
+    width: 17px;
+    height: 27px;
+    border: 2px solid #EB3A4C;
+    margin-bottom: 13px;
+}
+.testimonial_image{
+   display: flex;
+}
+.testimonial_image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.testimonial_image h6{
+    margin: 0;
+    margin: auto;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+.testimonial .owl-item img {
+    display: block;
+    width: 21%;
+}
+/* testimonial part end here. */
+/* choose part start here. */
+.choose-One,.choose-three,.choose-two{ 
+   box-shadow: 0px 0px 5px 2px #d5d5d5;  
+   padding-top: 35px; 
+   position: relative;  
+   border-radius: 25px;
+ 
+}
+.choose-One::after,.choose-two::after,.choose-three::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: #EB3A4C;
+    top: 0%;
+    left: 40%;      
+    transform: translate(-9%, 0%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.choose-One:hover.choose-One::after,.choose-two:hover.choose-two::after,.choose-three:hover.choose-three::after{
+    width: 25%;
+    height: 5px;
+    transition: .4s all ease-in-out ;
+    
+}   
+.choose-One:hover,.choose-two:hover,.choose-three:hover{
+    transition: all .8s ease-in-out;
+    box-shadow: 0px 0px 14px 10px #d5d5d5;
+}
+
+.choose_content span{
+    display: inline-block;
+    width: 20%;
+    height: 5px;
+    background-color: #EB3A4C;
+}
+.choose-One h6, .choose-three h6, .choose-two h6{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.choose_content h4{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.choose_content p{
+    margin-top: 20px;
+}
+
+.btn-quote,.btn-custom{
+    border: 1px solid #EB3A4C;
+    padding: 0;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 6px 29px;
+    color: #EB3A4C;
+    text-transform: capitalize;
+    border-radius: 25px;
+    margin: 15px auto;
+}
+.btn-quote:hover,.btn-custom:hover {
+    color:#fff;
+    background-color: #EB3A4C;
+    transition: .4s all ease-in-out;
+}
+/* choose part end here. */
+/* recent part start here. */
+.recent_left{
+    box-shadow: 0px 0px 8px 2px #cac8c8;
+}
+.recent_content{
+    padding: 20px;
+}
+.recent_content h6{
+    
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.recent_content p{
+    
+    margin: 0;
+    margin: 15px auto;
+}
+.recent_content a{
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EB3A4C;
+}
+/* recent part end here. */
+/* .contact details part start here. */
+.contact_section{
+    width: 100%;
+    background-color: #FAFAFA;
+    margin: 0;
+        margin-top: 0px;
+    margin-top: 20px;
+}
+.pd{
+    padding: 0;
+}
+.contact_details_left{
+    background-image: url(../picture/pexels-alex-azabache-3879060.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.contact_details_left::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #AB0B0B;
+    opacity: 0.7;
+    z-index: -1;
+}
+.contact_details{
+    color: #fff;
+    /*! padding: 194px; */
+    margin: 129px;
+}
+.contact_details h4{
+    color: #fff;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+}
+.contact_details h5{
+    color: #fff;
+    margin: 0;
+    text-transform: capitalize;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 600;
+}
+.contact_details h6{
+    color: #fff;
+    margin: 0;
+}
+.contact_details p{
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.offers{
+    padding: 30px;
+}
+.offers h5{
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.offers span{
+    display: block;
+    width: 22%;
+    height: 3px;
+    background-color: #EB3A4C;
+    margin-bottom: 20px;
+}
+.offers p{
+    
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name .form-control{
+    border: none;
+    text-transform: capitalize;
+    background-color: transparent;
+    /*! border-bottom: 2px red; */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d0d0;
+    border-radius: 0px;
+    width: 48%;
+    padding: 0;
+    padding-bottom: 7px;
+    margin-top: 50px;
+}
+.form-control{
+    /*! border-bottom: 1px solid red; */
+    padding: 0;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 1px solid #d0d0d0;
+    border-radius: 0px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.contact_section form textarea{
+    border-bottom: 1px solid #cdcdd0;
+}
+.contact_section form input[type="submit"]{
+    width: auto;
+    margin: auto;
+        margin-top: auto;
+    padding: 7px 45px;
+    border: 1px solid #EB3A4C;
+    border-radius: 25px;
+    line-height: 25px;
+    margin-top: 80px;
+}
+.contact_section form input[type="submit"]:hover{
+    padding: 7px 55px;
+    transition: .4s all ease-in-out;
+    background-color: #EB3A4C;
+    color: #fff;
+    font-size: 20px;
+}
+/* .contact details part end here. */
